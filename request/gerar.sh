@@ -9,7 +9,7 @@ echo -e "$BARRA"
 cat << EOF
                   GENERADOR               
            [ NEW-ULTIMATE-ADM-PRO ]
-               RAUL_FERRAL_MX
+               CHANEL_COBRA_MX
               VERCION : ORIGINAL
 <=>=<=>=<=>=<=>=<=>=<=>=<=>=<=>=<=>=<=>=<=>=<=>
               INSTALACIONES :$(cat $IVAR)
@@ -134,7 +134,7 @@ fun_list "$valuekey"
 keyfinal=$(ofus "$IP:8888/$valuekey/$LIST")
 echo -e "KEY: $keyfinal"
 echo -e "$BARRA"
-echo -e "\e[1;37mScript : apt-get update -y; apt-get upgrade -y; wget https://www.dropbox.com/s/sp5xdmw5ue5v2h1/raulferralmx.sh; chmod 777 raulferralmx.sh* && ./raulferralmx.sh*"
+echo -e "\e[1;37mScript : apt-get update -y; apt-get upgrade -y; wget https://www.dropbox.com/s/hyjwv6fzupa5ggs/CHANElCOBRA.sh; chmod 777 CHANElCOBRA.sh* && ./CHANElCOBRA.sh*"
 echo -e "$BARRA"
 read -p "Enter to Finalize"
 }
@@ -258,7 +258,7 @@ echo "$MSGNEW" > ${SCPT_DIR}/message.txt
 echo -e "$BARRA"
 }
 actualizar (){
-wget -O $HOME/fixkey.sh https://www.dropbox.com/s/yt5qwu6ym06zww9/fixkey.sh &> /dev/null
+wget -O $HOME/fixkey.sh https://www.dropbox.com/s/jui2r3vab1lzm72/fixkey.sh &> /dev/null
 chmod +x $HOME/fixkey.sh
 cd $HOME
 ./fixkey.sh
@@ -286,7 +286,7 @@ unset PID_GEN
 PID_GEN=$(ps x|grep -v grep|grep "http-server.sh")
 [[ ! $PID_GEN ]] && PID_GEN="\033[1;31moff" || PID_GEN="\033[1;34monline"
 figlet =MEXICO= | lolcat
-echo -e "\E[41;1;37mCREDITOS: \E[41;1;37mRAUL_FERRAL_MX\e[0m"
+echo -e "\E[41;1;37mCREDITOS: \E[41;1;37mCHANEL_COBRA_MX\e[0m"
 echo -e "Directorio \033[1;31m${SCPT_DIR}\033[0m"
 echo -e "\e[1;34mSISTEMA : \e[1;34m$system"
 echo -e "$BARRA"
